@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #2563eb;
+    --primary-color: #4356D6;
     --primary-hover: #1d4ed8;
     --text-dark: #111827;
     --text-medium: #374151;
@@ -173,17 +173,16 @@ img {
 
 .text-underline {
     position: relative;
-    color: #3b82f6;
+    color: #4356D6;
     display: inline-block;
 }
 
 .hero-underline {
     position: absolute;
-    bottom: -10px;
+    bottom: -8px;
     left: 0;
     width: 100%;
     height: auto;
-    z-index: -1;
 }
 
 .hero-desc {
@@ -330,9 +329,10 @@ img {
 .section-spiral-arrow {
     position: absolute;
     right: -10px;
-    bottom: -35px;
+    bottom: -85px;
     width: 35px;
     height: auto;
+    filter: drop-shadow(1px 0 0 #000) drop-shadow(-1px 0 0 #000) drop-shadow(0 1px 0 #000) drop-shadow(0 -1px 0 #000);
 }
 
 .section-desc {
