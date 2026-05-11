@@ -310,29 +310,36 @@ img {
 .section-header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: flex-start;
+    gap: 2rem;
     margin-bottom: 3rem;
 }
 
-.header-text h2 {
-    font-size: 3.5rem;
-    font-weight: 700;
-    line-height: 1.1;
+.header-text {
     position: relative;
-    display: inline-block;
+    max-width: 500px;
+    flex-shrink: 0;
+}
+
+.header-text h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.15;
 }
 
 .section-spiral-arrow {
     position: absolute;
-    right: -60px;
-    bottom: -20px;
-    width: 60px;
+    right: -10px;
+    bottom: -35px;
+    width: 35px;
+    height: auto;
 }
 
 .section-desc {
     max-width: 500px;
     color: var(--text-medium);
-    font-size: 1rem;
+    font-size: 0.95rem;
+    line-height: 1.7;
 }
 
 .compliance-content {
